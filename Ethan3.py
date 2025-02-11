@@ -1,6 +1,6 @@
 chiffre1 = input(" écris_moi un premier nombre ")
-chiffre2 = input(" écris_moi un deuxième nombre")
 calcul = input ("écris moi un signe de calcul")
+chiffre2 = input(" écris_moi un deuxième nombre")
 if calcul == '+':
     print( int(chiffre1)+ int(chiffre2))
 if calcul == '-':
@@ -8,4 +8,4 @@ if calcul == '-':
 if calcul == '*':
     print( int(chiffre1)* int(chiffre2))
 if calcul == '/':
-    print( int(chiffre1)/ int(chiffre2))
+    print( int(chiffre1)/ int(chiffre2)) 
