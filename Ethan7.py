@@ -1,4 +1,5 @@
 from math import *
+print('Nous allons vous claculer l aire d un triangle en m² et son périmètre en m')
 d = input('choisissez un nombre entier pour une longueur d un demi-périmètre ')
 a = input('choisissez un nombre entier pour une longueur d un coté du triangle ')
 b = input('choisissez un nombre entier pour une longueur d un autre coté du triangle ')
@@ -11,5 +12,5 @@ if expression < 0:
     aire = None
 else:
     aire = (sqrt(expression))
-print(périmètre)
-print(aire)
+print('Le périmètre du triangle est',périmètre, 'm')
+print('L aire du triangle est',aire, 'm2')
